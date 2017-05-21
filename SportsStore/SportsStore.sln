@@ -6,6 +6,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.UnitTests", "SportsStore.UnitTests\SportsStore.UnitTests.csproj", "{63F8FE76-AF60-4D71-B415-84CE96F0C428}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.WebUI", "SportsStore.WebUI\SportsStore.WebUI.csproj", "{B0304C1B-6652-4F7F-B8E5-6F15BA284704}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3C50FCE3-9A4C-41CF-A4E0-CCEC3D933249} = {3C50FCE3-9A4C-41CF-A4E0-CCEC3D933249}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
