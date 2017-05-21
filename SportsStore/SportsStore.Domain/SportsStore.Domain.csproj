@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{04484B3C-1FA7-4A2B-B2BE-556E4972F96C}</ProjectGuid>
+    <ProjectGuid>{3C50FCE3-9A4C-41CF-A4E0-CCEC3D933249}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SportsStore.Domain</RootNamespace>
