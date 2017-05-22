@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{63F8FE76-AF60-4D71-B415-84CE96F0C428}</ProjectGuid>
+    <ProjectGuid>{21E433E2-1712-4740-A2F8-E69BBF39CC78}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SportsStore.UnitTests</RootNamespace>
@@ -46,6 +46,7 @@
       <HintPath>..\packages\Ninject.3.2.2.0\lib\net45-full\Ninject.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
   </ItemGroup>
   <Choose>
@@ -68,11 +69,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SportsStore.Domain\SportsStore.Domain.csproj">
-      <Project>{3c50fce3-9a4c-41cf-a4e0-ccec3d933249}</Project>
+      <Project>{6e96799a-d7db-44cb-a4d2-2d3e80e72cee}</Project>
       <Name>SportsStore.Domain</Name>
     </ProjectReference>
     <ProjectReference Include="..\SportsStore.WebUI\SportsStore.WebUI.csproj">
-      <Project>{b0304c1b-6652-4f7f-b8e5-6f15ba284704}</Project>
+      <Project>{85c83ed2-124b-4f01-b1fb-25bcbe192c88}</Project>
       <Name>SportsStore.WebUI</Name>
     </ProjectReference>
   </ItemGroup>
